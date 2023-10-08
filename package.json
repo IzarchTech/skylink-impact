@@ -2,17 +2,19 @@
   "name": "skylink-impact",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://uat.skylinkimpact.com",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "lint": "next lint"
   },
   "dependencies": {
     "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^4.11.0"
+    "react-icons": "^4.11.0",
+    "sharp": "^0.32.6"
   },
   "devDependencies": {
     "@types/node": "^20",
