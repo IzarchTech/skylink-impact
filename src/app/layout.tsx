@@ -9,6 +9,10 @@ export const metadata: Metadata = {
   title: "Skylink Impact",
   description:
     "Skylink impact focuses on business and individual development, growth and advancement",
+  openGraph: {
+    title: "Skylink Impact",
+    description: "Skylink impact focuses on business and individual development, growth and advancement",
+  }
 };
 
 export default function RootLayout({

@@ -29,7 +29,7 @@ export default function HeroSection() {
     <div className="w-full relative">
       <Image
         src={meetingImg}
-        className="object-fill h-[60vh] lg:h-[80vh] w-full object-center"
+        className="object-cover h-[60vh] lg:h-[80vh] w-full object-top lg:object-center"
         alt="meeting"
         priority
       />

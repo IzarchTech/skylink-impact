@@ -42,7 +42,7 @@ export default function Navbar() {
                         <Link href="/">Job Link</Link>
                     </NavDropDown>
 
-                    <Link href="/">Contact Us</Link>
+                    <Link href="/contact_us">Contact Us</Link>
                     <Link href="/">Success Stories</Link>
                 </div>
                 <button

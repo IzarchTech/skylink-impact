@@ -14,7 +14,7 @@ export default function Footer() {
           <VStack className="space-y-2 text-xs" isFull>
             <Link href="/">About Us</Link>
             <Link href="/">Resources</Link>
-            <Link href="/">Contact Us</Link>
+            <Link href="/contact_us">Contact Us</Link>
             <Link href="/">Terms of Use</Link>
             <Link href="/">Privacy</Link>
           </VStack>
