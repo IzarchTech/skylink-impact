@@ -2,11 +2,9 @@
   "name": "skylink-impact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://uat.skylinkimpact.com",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js",
     "lint": "next lint"
   },
   "dependencies": {
