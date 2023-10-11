@@ -17,10 +17,11 @@ export default function Navbar() {
 
     return (
         <>
-            <nav className="w-full flex bg-slate-100 p-2 items-center fixed z-50">
+            <nav className="w-full flex items-center justify-items-center bg-slate-100 fixed z-50">
+                <div className="flex items-center container p-2">
                 <Link href="/" className="block">
                     <Image
-                        className="h-12 object-contain -ml-14"
+                        className="h-12 object-contain -ml-14 lg:-ml-0"
                         src={skylinkImpactLogo}
                         alt="Skylink Impact logo"
                     />
@@ -43,13 +44,14 @@ export default function Navbar() {
                     </NavDropDown>
 
                     <Link href="/contact_us">Contact Us</Link>
-                    <Link href="/">Success Stories</Link>
+                    <Link href="/">Mentoring</Link>
                 </div>
                 <button
                     className="lg:hidden text-xl border border-slate-950 p-2 rounded-md active:bg-slate-950 active:text-slate-50"
                     onClick={() => setIsDrawerOpen(true)}>
                     <FaBars/>
                 </button>
+                </div>
             </nav>
 
             <Drawer isOpen={isDrawerOpen} onClose={onClose}/>
