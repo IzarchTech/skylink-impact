@@ -3,7 +3,13 @@ import contactUsImg from "@/app/assets/contact_us.webp";
 import VStack from "@/app/components/VStack";
 import HStack from "@/app/components/HStack";
 import {FaEnvelope, FaMobileRetro, FaPhone} from "react-icons/fa6";
+import {Metadata} from "next";
+import ContactUsForm from "@/app/contact_us/_components/ContactUsForm";
 
+export const metadata: Metadata = {
+    title: 'Contact Us - Skylink Impact',
+    description: "Empower Your Journey into the Tech World or Elevate Your Career, and Enhance Your Business Operations – Connect with Us Now, and We'll Get in Touch at the Earliest Opportunity!"
+}
 export default function ContactUs() {
     return (
         <>
@@ -62,35 +68,7 @@ export default function ContactUs() {
                         </HStack>
                     </VStack>
 
-                    <div className="bg-slate-50 shadow-md p-4 rounded-md lg:col-span-2">
-                        <VStack className="pt-3.5 gap-4">
-                            <h2 className="font-bold text-2xl text-slate-900">Keep in touch with us</h2>
-                            <div className="flex flex-col gap-2">
-                                <label htmlFor="name" className="font-light">Name</label>
-                                <input placeholder="Name" id="name"
-                                       className="ring-1 rounded ring-slate-950 bg-transparent p-2"/>
-                            </div>
-                            <div className="flex flex-col gap-2">
-                                <label htmlFor="email" className="font-light">Email Address</label>
-                                <input placeholder="j.doe@example.com" id="email"
-                                       className="ring-1 rounded ring-slate-950 bg-transparent p-2"/>
-                            </div>
-                            <div className="flex flex-col gap-2">
-                                <label htmlFor="subject" className="font-light">Subject</label>
-                                <input placeholder="Subject" id="subject"
-                                       className="ring-1 rounded ring-slate-950 bg-transparent p-2"/>
-                            </div>
-                            <div className="flex flex-col gap-2">
-                                <label htmlFor="message" className="font-light">Message</label>
-                                <textarea rows={6} placeholder="Message" id="message"
-                                          className="ring-1 rounded ring-slate-950 bg-transparent p-2"/>
-                            </div>
-                            <button
-                                className="pointer-events-auto rounded-md bg-slate-600 px-3 py-4 font-semibold leading-5 text-white hover:bg-slate-900">Send
-                                Message
-                            </button>
-                        </VStack>
-                    </div>
+                    <ContactUsForm />
                 </div>
             </VStack>
         </>
