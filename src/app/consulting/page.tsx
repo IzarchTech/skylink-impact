@@ -4,6 +4,7 @@ import VStack from "@/app/components/VStack";
 
 import consultationBg from "@/app/assets/consultation.webp";
 import consultation2Bg from "@/app/assets/consultation2.webp";
+import InfoCard from "@/app/consulting/components/InfoCard";
 
 export const metadata: Metadata = {
     title: "Consulting - Skylink Impact",
@@ -29,84 +30,61 @@ export default function ConsultingPage() {
                 </div>
             </div>
 
-            <VStack className="w-full bg-slate-50 items-center justify-center">
+            <VStack className="w-full items-center justify-center">
                 <VStack className="container items-center justify-center px-4 py-12">
                     <h2 className="text-4xl font-bold text-center">Our Services</h2>
                     <p className="italic text-center lg:w-3/4">Discover and learn more about our extensive range of
                         services, tailored uniquely to your
                         organisations needs</p>
 
-                    <div className="grid lg:grid-cols-2 lg:grid-rows-4 gap-4 mt-8 text-justify place-items-center">
-                        <VStack className="gap-4">
-                            <h2 className="text-3xl font-semibold">We Offer:</h2>
-                            <VStack className="gap-4 text-lg">
-                                <h3 className="text-2xl font-medium underline">Business Consulting</h3>
-                                <p> Elevate your organisation with our expert business consultants. We&apos;ll
+                    <VStack className="mt-9">
+                        <h2 className="text-3xl font-semibold">We Offer:</h2>
+                        <div className="grid lg:grid-cols-2 lg:grid-rows-4 gap-10 mt-8 text-justify justify-items-center">
+                            <InfoCard title="Business Consulting" description="Elevate your organisation with our expert business consultants. We&apos;ll
                                     collaborate
                                     with
                                     you to devise innovative business strategies, drive organisational growth, and boost
-                                    business performance.</p>
-                            </VStack>
-                        </VStack>
+                                    business performance."/>
 
-                        <VStack className="gap-4 text-lg">
-                            <h3 className="text-2xl font-medium underline">Software Quality Assurance</h3>
-                            <p> Ensure impeccable software quality for your organisation. Partner our QA experts to
+                            <InfoCard title="Software Quality Assurance" description="Ensure impeccable software quality for your organisation. Partner our QA experts to
                                 exceed
-                                industry standards and enhance your digital offerings.</p>
-                        </VStack>
+                                industry standards and enhance your digital offerings."/>
 
-                        <VStack className="gap-4 text-lg">
-                            <h3 className="text-2xl font-medium underline">Mentoring</h3>
-                            <p> Empower your team with our mentoring program. We provide tailored guidance and knowledge
+                            <InfoCard title="Mentoring" description="Empower your team with our mentoring program. We provide tailored guidance and knowledge
                                 to
                                 help your organisation&apos;s members foster IT skill development, and excel in the IT
-                                industry.</p>
-                        </VStack>
+                                industry."/>
 
-                        <VStack className="gap-4 text-lg">
-                            <h3 className="text-2xl font-medium underline">Agile Coaching</h3>
-                            <p> With our Agile Coaching solutions, we will empower your teams to adapt, innovate and
+                            <InfoCard title="Agile Coaching" description="With our Agile Coaching solutions, we will empower your teams to adapt, innovate and
                                 thrive
                                 in a dynamic business environment to help your organisation stay ahead in your
-                                industry.</p>
-                        </VStack>
+                                industry."/>
 
-                        <VStack className="gap-4 text-lg">
-                            <h3 className="text-2xl font-medium underline">Artificial Intelligence</h3>
-                            <p> By leveraging AI&apos;s transformative potential, we create intelligent AI-powered
-                                solutions and systems for your organisation, to drive efficiency and innovation.</p>
-                        </VStack>
+                            <InfoCard title="Artificial Intelligence" description="By leveraging AI&apos;s transformative potential, we create intelligent AI-powered
+                                solutions and systems for your organisation, to drive efficiency and innovation."/>
 
-                        <VStack className="gap-4 text-lg">
-                            <h3 className="text-2xl font-medium underline">Business Analysis</h3>
-                            <p> Gain valuable insights into your organisation&apos;s challenges with our expert
+                            <InfoCard title="Business Analysis" description="Gain valuable insights into your organisation&apos;s challenges with our expert
                                 analysis. We
                                 provide data-driven recommendations to optimize your decision-making processes, to
                                 enhance
-                                your business analysis services.</p>
-                        </VStack>
+                                your business analysis services."/>
 
-                        <VStack className="gap-4 text-lg">
-                            <h3 className="text-2xl font-medium underline">DevOps</h3>
-                            <p> Using our DevOps practices, we will help streamline your organisation&apos;s development
+                            <InfoCard title="DevOps" description="Using our DevOps practices, we will help streamline your organisation&apos;s development
                                 and
                                 operations. We foster collaboration and process automation to ensure faster more
                                 reliable
-                                DevOps solutions and outcomes.</p>
-                        </VStack>
+                                DevOps solutions and outcomes."/>
 
-                        <VStack className="gap-4 text-lg">
-                            <h3 className="text-2xl font-medium underline">DevOps</h3>
-                            <p>We will transform your organisation&apos;s ideas into successful products. Our expert
+                            <InfoCard title="Product Management" description="We will transform your organisation&apos;s ideas into successful products. Our expert
                                 product
                                 managers guide every step of the process, from ideation to market, ensuring successful
-                                offerings and providing product management services.</p>
-                        </VStack>
-                    </div>
+                                offerings and providing product management services."/>
+                        </div>
+                    </VStack>
                 </VStack>
 
             </VStack>
+
             <VStack className="w-full bg-slate-800 text-slate-50 items-center justify-center">
                 <VStack className="container items-center justify-center py-12 px-4 gap-10">
                     <h2 className="text-4xl font-bold text-center">Our Approach to Consulting</h2>
