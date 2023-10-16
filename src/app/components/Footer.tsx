@@ -24,14 +24,14 @@ export default function Footer() {
           <p className="uppercase font-semibold">Courses</p>
 
           <VStack className="space-y-2 text-xs" isFull>
-            <Link href="/">Business Analysis</Link>
-            <Link href="/">Data Analysis</Link>
-            <Link href="/">Software Automation</Link>
-            <Link href="/">Scrum Master</Link>
-            <Link href="/">DevOps Engineering</Link>
-            <Link href="/">Web Development</Link>
-            <Link href="/">App Development</Link>
-            <Link href="/">Cyber Security</Link>
+            <Link href="/courses">Business Analysis</Link>
+            <Link href="/courses">Data Analysis</Link>
+            <Link href="/courses">Software Automation</Link>
+            <Link href="/courses">Scrum Master</Link>
+            <Link href="/courses">DevOps Engineering</Link>
+            <Link href="/courses">Web Development</Link>
+            <Link href="/courses">App Development</Link>
+            <Link href="/courses">Cyber Security</Link>
           </VStack>
         </VStack>
 

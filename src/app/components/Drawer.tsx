@@ -28,7 +28,7 @@ export default function Drawer({isOpen, onClose}: { isOpen: boolean, onClose: ()
                             <Link onClick={onClose} href="/">Meet The Team</Link>
                         </NavDropDown>
                         <Link onClick={onClose} href="/">Consulting</Link>
-                        <Link onClick={onClose} href="/">Courses</Link>
+                        <Link onClick={onClose} href="/courses">Courses</Link>
                         <NavDropDown title="Events">
                             <Link onClick={onClose} href="/">Events</Link>
                             <Link onClick={onClose} href="/">Blogs</Link>
