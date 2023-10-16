@@ -34,7 +34,7 @@ export default function Navbar() {
                         <Link href="/">Meet The Team</Link>
                     </NavDropDown>
 
-                    <Link href="/">Consulting</Link>
+                    <Link href="/consulting">Consulting</Link>
                     <Link href="/courses">Courses</Link>
 
                     <NavDropDown title="Events">
