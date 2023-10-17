@@ -52,6 +52,12 @@ export default function Footer() {
             <FaLinkedinIn />
             <FaXTwitter />
           </HStack>
+
+          <VStack className="gap-2">
+            <p className="font-semibold">Get Skylink Latest Updates</p>
+            <p className="text-sm">Subscribe to get our updates &amp; deals delivered to you</p>
+            <input className="p-2 rounded-md" placeholder="Email Address"/>
+          </VStack>
         </VStack>
       </div>
       <div className="w-full p-8 bg-slate-950">
