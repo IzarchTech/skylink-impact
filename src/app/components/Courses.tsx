@@ -17,21 +17,21 @@ export default function Courses() {
         <CourseCard
           src={softwareAutomationImg}
           title="Software Automation"
-          path="/"
+          path="/courses#software_quality_assurance"
         />
         <CourseCard
           src={businessAnalysisImg}
           title="Business Analysis"
-          path="/"
+          path="/courses#business_analysis"
         />
         <CourseCard src={dataAnlysisImg} title="Data Analysis" path="/" />
         <CourseCard
           src={devopsEngineeringImg}
           title="DevOps Engineering"
-          path="/"
+          path="/courses#devops"
         />
-        <CourseCard src={cyberSecurityImg} title="Cyber Security" path="/" />
-        <CourseCard src={scrumMasterImg} title="Scrum Master" path="/" />
+        <CourseCard src={cyberSecurityImg} title="Cyber Security" path="/courses" />
+        <CourseCard src={scrumMasterImg} title="Scrum Master" path="/courses#business_analysis" />
       </div>
     </div>
   );

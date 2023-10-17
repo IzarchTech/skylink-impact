@@ -38,7 +38,7 @@ export default function CoursesPage() {
                 </div>
             </div>
             <VStack className="w-full">
-                <div className="w-full bg-slate-50 p-4 py-8 flex flex-col justify-center items-center gap-4">
+                <div className="w-full bg-slate-50 p-4 py-8 flex flex-col justify-center items-center gap-4" id="software_quality_assurance">
                     <h3 className="text-center text-2xl font-bold">Software Quality Assurance</h3>
                     <div className="grid lg:grid-cols-2 container gap-4 place-items-center place-content-center">
                         <Image
@@ -79,7 +79,7 @@ export default function CoursesPage() {
                 </div>
 
                 <div
-                    className="w-full bg-slate-700 text-slate-50 p-4 py-8 flex flex-col justify-center items-center gap-4">
+                    className="w-full bg-slate-700 text-slate-50 p-4 py-8 flex flex-col justify-center items-center gap-4" id="business_analysis">
                     <h3 className="text-center text-2xl font-bold">Business Analysis</h3>
                     <div className="grid lg:grid-cols-2 container gap-4 place-items-center place-content-center">
                         <Image
@@ -116,7 +116,7 @@ export default function CoursesPage() {
                     </div>
                 </div>
 
-                <div className="w-full bg-slate-50 p-4 py-8 flex flex-col justify-center items-center gap-4">
+                <div className="w-full bg-slate-50 p-4 py-8 flex flex-col justify-center items-center gap-4" id="software_development">
                     <h3 className="text-center text-2xl font-bold">Software Development</h3>
                     <div className="grid lg:grid-cols-2 container gap-4 place-items-center place-content-center">
                         <div className="grid grid-cols-2 grid-rows-2  place-content-center">
@@ -155,7 +155,7 @@ export default function CoursesPage() {
                 </div>
 
                 <div
-                    className="w-full bg-slate-700 text-slate-50 p-4 py-8 flex flex-col justify-center items-center gap-4">
+                    className="w-full bg-slate-700 text-slate-50 p-4 py-8 flex flex-col justify-center items-center gap-4" id="product_management">
                     <h3 className="text-center text-2xl font-bold">Product Management</h3>
                     <div className="grid lg:grid-cols-2 container gap-4 place-items-center place-content-center">
                         <Image
@@ -175,7 +175,7 @@ export default function CoursesPage() {
                 </div>
 
                 <div
-                    className="w-full bg-slate-50 p-4 py-8 flex flex-col justify-center items-center gap-4">
+                    className="w-full bg-slate-50 p-4 py-8 flex flex-col justify-center items-center gap-4" id="devops">
                     <h3 className="text-center text-2xl font-bold">DevOps</h3>
                     <div className="grid lg:grid-cols-2 container gap-4 place-items-center place-content-center">
                         <Image
