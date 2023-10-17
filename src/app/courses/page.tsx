@@ -69,6 +69,10 @@ export default function CoursesPage() {
                                     <FaCheckCircle/>
                                     <p>TDD & BDD</p>
                                 </HStack>
+                                <HStack className="gap-4 items-center">
+                                    <FaCheckCircle/>
+                                    <p>API Testing (Manual and Automation)</p>
+                                </HStack>
                             </VStack>
                         </VStack>
                     </div>
