@@ -16,15 +16,15 @@ function Companies() {
       </h2>
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-12">
         <Image
-          className="h-32"
+          className="h-20"
           src={britishCouncilLogo}
           alt="British council logo"
         />
-        <Image className="h-32" src={barclaysLogo} alt="Barclays logo" />
-        <Image className="h-32" src={capeGeminiLogo} alt="Capegemini logo" />
-        <Image className="h-32" src={hsbcLogo} alt="HSBC logo" />
-        <Image className="h-32" src={ibmLogo} alt="IBM logo" />
-        <Image className="h-32" src={nhsLogo} alt="NHS logo" />
+        <Image className="h-20" src={barclaysLogo} alt="Barclays logo" />
+        <Image className="h-20" src={capeGeminiLogo} alt="Capegemini logo" />
+        <Image className="h-20" src={hsbcLogo} alt="HSBC logo" />
+        <Image className="h-20" src={ibmLogo} alt="IBM logo" />
+        <Image className="h-20" src={nhsLogo} alt="NHS logo" />
       </div>
     </VStack>
   );
