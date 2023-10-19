@@ -8,6 +8,11 @@ import InfoCard from "@/app/consulting/components/InfoCard";
 
 export const metadata: Metadata = {
     title: "Consulting - Skylink Impact",
+    description: "Discover and learn more about our extensive range of services, tailored uniquely to your organisations needs",
+    openGraph: {
+        title: "Consulting - Skylink Impact",
+        description: "Discover and learn more about our extensive range of services, tailored uniquely to your organisations needs",
+    }
 }
 
 export default function ConsultingPage() {
@@ -34,12 +39,12 @@ export default function ConsultingPage() {
                 <VStack className="container items-center justify-center px-4 py-12">
                     <h2 className="text-4xl font-bold text-center">Our Services</h2>
                     <p className="italic text-center lg:w-3/4">Discover and learn more about our extensive range of
-                        services, tailored uniquely to your
-                        organisations needs</p>
+                        services, tailored uniquely to your organisations needs</p>
 
                     <VStack className="mt-9">
                         <h2 className="text-3xl font-semibold">We Offer:</h2>
-                        <div className="grid lg:grid-cols-2 lg:grid-rows-4 gap-10 mt-8 text-justify justify-items-center">
+                        <div
+                            className="grid lg:grid-cols-2 lg:grid-rows-4 gap-10 mt-8 text-justify justify-items-center">
                             <InfoCard title="Business Consulting" description="Elevate your organisation with our expert business consultants. We&apos;ll
                                     collaborate
                                     with

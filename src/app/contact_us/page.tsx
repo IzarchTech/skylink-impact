@@ -2,13 +2,17 @@ import Image from "next/image";
 import contactUsImg from "@/app/assets/contact_us.webp";
 import VStack from "@/app/components/VStack";
 import HStack from "@/app/components/HStack";
-import {FaEnvelope, FaMobileRetro, FaPhone} from "react-icons/fa6";
+import {FaEnvelope, FaMobileRetro} from "react-icons/fa6";
 import {Metadata} from "next";
 import ContactUsForm from "@/app/contact_us/_components/ContactUsForm";
 
 export const metadata: Metadata = {
-    title: 'Contact Us - Skylink Impact',
-    description: "Empower Your Journey into the Tech World or Elevate Your Career, and Enhance Your Business Operations – Connect with Us Now, and We'll Get in Touch at the Earliest Opportunity!"
+    title: "Contact Us - Skylink Impact",
+    description: "Empower Your Journey into the Tech World or Elevate Your Career, and Enhance Your Business Operations – Connect with Us Now, and We'll Get in Touch at the Earliest Opportunity!",
+    openGraph: {
+        title: "Contact Us - Skylink Impact",
+        description: "Empower Your Journey into the Tech World or Elevate Your Career, and Enhance Your Business Operations – Connect with Us Now, and We'll Get in Touch at the Earliest Opportunity!",
+    }
 }
 export default function ContactUs() {
     return (
@@ -56,19 +60,9 @@ export default function ContactUs() {
                                 <p className="font-thin">+44 (0)7448923278</p>
                             </VStack>
                         </HStack>
-                        <HStack className="bg-slate-50 shadow-md p-4 gap-3 rounded-md">
-                            <div
-                                className="flex items-center justify-center p-5 text-xl bg-slate-300 text-slate-700 rounded-full">
-                                <FaPhone/>
-                            </div>
-                            <VStack>
-                                <p className="font-bold">Phone Number (Alt.)</p>
-                                <p className="font-thin">+44-07-956-34-2240</p>
-                            </VStack>
-                        </HStack>
                     </VStack>
 
-                    <ContactUsForm />
+                    <ContactUsForm/>
                 </div>
             </VStack>
         </>
