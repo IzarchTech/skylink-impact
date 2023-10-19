@@ -56,7 +56,7 @@ export default function Footer() {
                     <VStack className="gap-2">
                         <p className="font-semibold">Get Skylink Latest Updates</p>
                         <p className="text-sm">Subscribe to get our updates &amp; deals delivered to you</p>
-                        <input className="p-2 rounded-md" placeholder="Email Address"/>
+                        <input className="p-2 rounded-md text-slate-900" placeholder="Email Address"/>
                     </VStack>
                 </VStack>
             </div>
