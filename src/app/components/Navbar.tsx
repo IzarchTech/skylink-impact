@@ -29,7 +29,7 @@ export default function Navbar() {
                 <Spacer/>
                 <div className="hidden lg:flex space-x-4">
                     <NavDropDown title="About Us">
-                        <Link href="/">Who We Are</Link>
+                        <Link href="/about_us/who_we_are">Who We Are</Link>
                         <Link href="/">Meet The Team</Link>
                     </NavDropDown>
 
