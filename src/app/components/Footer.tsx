@@ -12,7 +12,7 @@ export default function Footer() {
                     <p className="uppercase font-semibold">Company</p>
 
                     <VStack className="space-y-2 text-xs" isFull>
-                        <Link href="/">About Us</Link>
+                        <Link href="/about_us">About Us</Link>
                         <Link href="/">Resources</Link>
                         <Link href="/contact_us">Contact Us</Link>
                         <Link href="/">Terms of Use</Link>

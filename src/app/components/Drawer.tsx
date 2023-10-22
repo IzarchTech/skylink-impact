@@ -23,13 +23,12 @@ export default function Drawer({isOpen, onClose}: { isOpen: boolean, onClose: ()
                     </HStack>
                     <VStack className="px-4 gap-4">
                         <NavDropDown title="About Us">
-                            <Link onClick={onClose} href="/">Who We Are</Link>
-                            <Link onClick={onClose} href="/">Our Services</Link>
+                            <Link onClick={onClose} href="/about_us">Who We Are</Link>
                             <Link onClick={onClose} href="/">Meet The Team</Link>
                         </NavDropDown>
                         <Link onClick={onClose} href="/consulting">Consulting</Link>
                         <Link onClick={onClose} href="/courses">Courses</Link>
-                        <NavDropDown title="Events">
+                        <NavDropDown title="Events"> 
                             <Link onClick={onClose} href="/">Events</Link>
                             <Link onClick={onClose} href="/">Blogs</Link>
                             <Link onClick={onClose} href="/">Job Link</Link>
