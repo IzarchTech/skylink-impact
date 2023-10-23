@@ -51,7 +51,7 @@ export default function ConsultingPage() {
                                     you to devise innovative business strategies, drive organisational growth, and boost
                                     business performance."/>
 
-                            <InfoCard title="Software Quality Assurance" description="Ensure impeccable software quality for your organisation. Partner our QA experts to
+                            <InfoCard title="Software Testing" description="Ensure impeccable software quality for your organisation. Partner with our QA experts to
                                 exceed
                                 industry standards and enhance your digital offerings."/>
 
@@ -74,11 +74,8 @@ export default function ConsultingPage() {
                                 enhance
                                 your business analysis services."/>
 
-                            <InfoCard title="DevOps" description="Using our DevOps practices, we will help streamline your organisation&apos;s development
-                                and
-                                operations. We foster collaboration and process automation to ensure faster more
-                                reliable
-                                DevOps solutions and outcomes."/>
+                            <InfoCard title="DevOps"
+                                      description="Using our DevOps practices, we will help streamline your organisation's development and operstions. We foster collaboration and process automation to ensure faster more relaible DevOps solutions and outcomes. "/>
 
                             <InfoCard title="Product Management" description="We will transform your organisation&apos;s ideas into successful products. Our expert
                                 product

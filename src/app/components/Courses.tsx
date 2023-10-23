@@ -2,7 +2,6 @@ import softwareAutomationImg from "@/app/assets/software_automation2.webp";
 import businessAnalysisImg from "@/app/assets/business_analysis.jpg";
 import dataAnlysisImg from "@/app/assets/data_analysis.jpg";
 import devopsEngineeringImg from "@/app/assets/devops_engineering.jpg";
-import cyberSecurityImg from "@/app/assets/cyber_security.jpg";
 import scrumMasterImg from "@/app/assets/scrum_master.jpg";
 
 import CourseCard from "./CourseCard";
@@ -30,7 +29,6 @@ export default function Courses() {
           title="DevOps Engineering"
           path="/courses#devops"
         />
-        <CourseCard src={cyberSecurityImg} title="Cyber Security" path="/courses" />
         <CourseCard src={scrumMasterImg} title="Scrum Master" path="/courses#business_analysis" />
       </div>
     </div>
