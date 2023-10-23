@@ -15,7 +15,7 @@ export default function Courses() {
       <div className="container mx-auto grid lg:grid-cols-3 justify-items-center gap-8">
         <CourseCard
           src={softwareAutomationImg}
-          title="Software Automation"
+          title="Software Test Automation"
           path="/courses#software_quality_assurance"
         />
         <CourseCard
