@@ -26,7 +26,7 @@ export default function AboutUsPage() {
                         <p>SkyLink
                             Impact is an IT Business Consultancy and Mentoring company that acts as a guiding light
                             in the ever-evolving world of IT.</p>
-                        <p>Established in 2019, SkyLink Impact has helped advance the professional careers of both old
+                        <p>Established in 2014, SkyLink Impact has helped advance the professional careers of both old
                             and
                             new entrants within the IT sector, by providing them with the necessary skills to secure
                             jobs
