@@ -30,7 +30,7 @@ export default function Navbar() {
                 <div className="hidden lg:flex space-x-4">
                     <NavDropDown title="About Us">
                         <Link href="/about_us">Who We Are</Link>
-                        <Link href="/">Meet The Team</Link>
+                        <Link href="/about_us/meet_the_team">Meet The Team</Link>
                     </NavDropDown>
 
                     <Link href="/consulting">Consulting</Link>
