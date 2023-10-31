@@ -9,7 +9,8 @@ import TeamMemberCard from "@/app/about_us/meet_the_team/components/TeamMemberCa
 export default function MeetTheTeamPage() {
     return (
         <>
-            <VStack className="w-full h-[30rem] lg:min-h-[40rem] pt-[65px] bg-gradient-to-t from-slate-900 from-15% via-slate-800 via-45% to-slate-700 to-90% justify-center items-center">
+            <VStack
+                className="w-full h-[30rem] lg:min-h-[40rem] pt-[65px] bg-gradient-to-t from-slate-900 from-15% via-slate-800 via-45% to-slate-700 to-90% justify-center items-center">
                 <h2 className="uppercase font-bold text-center text-2xl lg:text-4xl text-slate-50">
                     Meet The Team
                 </h2>
@@ -49,17 +50,15 @@ export default function MeetTheTeamPage() {
 
                     <TeamMemberCard name="Ryan Hughes" position="Software Engineer | Software Developer" img={RyanImg}>
                         <p>
-                            Ryan Hughes is a Software Engineer with 5+ years’ experience working in the IT sector. His
-                            possesses a Bachelor’s degree in Business administration addition with He possesses
-                            a bachelor’s degree in business administration, that has equipped him sufficiently to handle
-                            administrative roles.
+                            Ryan Hughes is a Software Engineer with over 6 years experience working in the IT sector. He
+                            possesses a Bachelor’s degree in Business Administration, that has equipped him sufficiently
+                            to handle administrative roles.
                         </p>
 
                         <p>
-                            His budding career in the IT sector has taken him across a couple of seasoned organizations.
+                            His career progress in the IT sector has taken him across a couple of seasoned organizations.
                             Currently, his path has taken him into the Security and Investigations sector, where he
-                            works
-                            as a Software Engineer.
+                            works as a Senior Developer.
                         </p>
 
                         <p>
