@@ -46,19 +46,13 @@ export default function ConsultingPage() {
                         <div
                             className="grid lg:grid-cols-2 lg:grid-rows-4 gap-10 mt-8 text-justify justify-items-center">
                             <InfoCard title="Business Consulting" description="Elevate your organisation with our expert business consultants. We&apos;ll
-                                    collaborate
-                                    with
-                                    you to devise innovative business strategies, drive organisational growth, and boost
-                                    business performance."/>
+                                    collaborate with you to devise innovative business strategies, drive organisational growth, and boost business performance."/>
 
-                            <InfoCard title="Software Testing" description="Ensure impeccable software quality for your organisation. Partner with our QA experts to
-                                exceed
-                                industry standards and enhance your digital offerings."/>
+                            <InfoCard title="Software Testing"
+                                      description="Ensure impeccable software quality for your organisation. Partner with our QA experts to exceed industry standards and enhance your digital offerings."/>
 
-                            <InfoCard title="Mentoring" description="Empower your team with our mentoring program. We provide tailored guidance and knowledge
-                                to
-                                help your organisation&apos;s members foster IT skill development, and excel in the IT
-                                industry."/>
+                            <InfoCard title="Mentoring"
+                                      description="Empower your team with our mentoring program. We provide tailored guidance and knowledge to help your organisation&apos;s members foster IT skill development, and excel in the IT industry."/>
 
                             <InfoCard title="Agile Coaching" description="With our Agile Coaching solutions, we will empower your teams to adapt, innovate and
                                 thrive
@@ -75,12 +69,10 @@ export default function ConsultingPage() {
                                 your business analysis services."/>
 
                             <InfoCard title="DevOps"
-                                      description="Using our DevOps practices, we will help streamline your organisation's development and operstions. We foster collaboration and process automation to ensure faster more relaible DevOps solutions and outcomes. "/>
+                                      description="Using our DevOps practices, we will help streamline your organisation's development and operstions. We foster collaboration and process automation to ensure faster and relaible DevOps solutions and outcomes. "/>
 
-                            <InfoCard title="Product Management" description="We will transform your organisation&apos;s ideas into successful products. Our expert
-                                product
-                                managers guide every step of the process, from ideation to market, ensuring successful
-                                offerings and providing product management services."/>
+                            <InfoCard title="Product Management"
+                                      description="We will transform your organisation&apos;s ideas into successful products. Our expert product managers guide every step of the process, from ideation to market, ensuring successful offerings and providing product management services."/>
                         </div>
                     </VStack>
                 </VStack>
