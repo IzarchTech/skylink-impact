@@ -75,7 +75,7 @@ const IMAGES: { title: string, path: StaticImport | string }[] = [
     }
 ];
 
-const IMAGE_WIDTH = 550;
+const IMAGE_WIDTH = 300;
 
 function ScrollingImages() {
     const galleryRef = useRef<HTMLDivElement | null>(null);
