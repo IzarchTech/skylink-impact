@@ -1,9 +1,9 @@
-import VStack from "@/app/components/VStack";
-import HStack from "@/app/components/HStack";
-import Spacer from "@/app/components/Spacer";
+import VStack from "@/app/(components)/VStack";
+import HStack from "@/app/(components)/HStack";
+import Spacer from "@/app/(components)/Spacer";
 import {FaTimes} from "react-icons/fa";
 import Link from "next/link";
-import NavDropDown from "@/app/components/NavDropDown";
+import NavDropDown from "@/app/(components)/NavDropDown";
 
 export default function Drawer({isOpen, onClose}: { isOpen: boolean, onClose: () => void }) {
     if (!isOpen) return null;

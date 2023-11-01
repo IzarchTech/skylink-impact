@@ -1,5 +1,5 @@
-import VStack from "@/app/components/VStack";
-import HStack from "@/app/components/HStack";
+import VStack from "@/app/(components)/VStack";
+import HStack from "@/app/(components)/HStack";
 import {FaArrowRight} from "react-icons/fa6";
 
 export default function AboutUsPage() {

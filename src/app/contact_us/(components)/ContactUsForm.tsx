@@ -1,5 +1,5 @@
 "use client";
-import VStack from "@/app/components/VStack";
+import VStack from "@/app/(components)/VStack";
 import {ChangeEvent, FormEvent, useState} from "react";
 
 type ContactUsDTO = {

@@ -1,4 +1,4 @@
-import VStack from "@/app/components/VStack";
+import VStack from "@/app/(components)/VStack";
 
 interface Props {
     title: string;

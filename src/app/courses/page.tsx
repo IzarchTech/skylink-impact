@@ -10,8 +10,8 @@ import appDev2 from "@/app/assets/app_development-2.jpg";
 import QABg from "@/app/assets/QA.jpg";
 import productMgtImg from "@/app/assets/product_management.png";
 import devOpsImg from "@/app/assets/devops.png";
-import VStack from "@/app/components/VStack";
-import HStack from "@/app/components/HStack";
+import VStack from "@/app/(components)/VStack";
+import HStack from "@/app/(components)/HStack";
 import {FaMobileScreenButton} from "react-icons/fa6";
 
 export const metadata: Metadata = {

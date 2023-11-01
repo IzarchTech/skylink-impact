@@ -1,10 +1,10 @@
 import {Metadata} from "next";
 import Image from "next/image";
-import VStack from "@/app/components/VStack";
+import VStack from "@/app/(components)/VStack";
 
 import consultationBg from "@/app/assets/consultation.webp";
 import consultation2Bg from "@/app/assets/consultation2.webp";
-import InfoCard from "@/app/consulting/components/InfoCard";
+import InfoCard from "@/app/consulting/(components)/InfoCard";
 
 export const metadata: Metadata = {
     title: "Consulting - Skylink Impact",

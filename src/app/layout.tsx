@@ -1,9 +1,9 @@
 import "./globals.css";
 import type { Metadata } from "next";
 
-import Navbar from "./components/Navbar";
-import Spacer from "./components/Spacer";
-import Footer from "./components/Footer";
+import Navbar from "@/app/(components)/Navbar";
+import Spacer from "@/app/(components)/Spacer";
+import Footer from "@/app/(components)/Footer";
 
 export const metadata: Metadata = {
   title: "Skylink Impact",

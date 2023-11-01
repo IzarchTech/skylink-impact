@@ -1,7 +1,7 @@
-import Companies from "./components/Companies";
-import Testimony from "./components/Testimony";
-import Courses from "./components/Courses";
-import HeroSection from "./components/HeroSection";
+import Companies from "@/app/(components)/Companies";
+import Testimony from "@/app/(components)/Testimony";
+import Courses from "@/app/(components)/Courses";
+import HeroSection from "@/app/(components)/HeroSection";
 
 export default function Home() {
   return (

@@ -1,10 +1,10 @@
 import Image from "next/image";
 import contactUsImg from "@/app/assets/contact_us.webp";
-import VStack from "@/app/components/VStack";
-import HStack from "@/app/components/HStack";
+import VStack from "@/app/(components)/VStack";
+import HStack from "@/app/(components)/HStack";
 import {FaEnvelope, FaMobileRetro} from "react-icons/fa6";
 import {Metadata} from "next";
-import ContactUsForm from "@/app/contact_us/_components/ContactUsForm";
+import ContactUsForm from "@/app/contact_us/(components)/ContactUsForm";
 
 export const metadata: Metadata = {
     title: "Contact Us - Skylink Impact",

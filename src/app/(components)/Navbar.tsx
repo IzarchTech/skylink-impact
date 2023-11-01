@@ -6,8 +6,8 @@ import {FaBars} from "react-icons/fa6";
 
 import skylinkImpactLogo from "@/app/assets/skylink_impact_logo_full.webp";
 import Spacer from "./Spacer";
-import Drawer from "@/app/components/Drawer";
-import NavDropDown from "@/app/components/NavDropDown";
+import Drawer from "@/app/(components)/Drawer";
+import NavDropDown from "@/app/(components)/NavDropDown";
 
 export default function Navbar() {
     const [isDrawerOpen, setIsDrawerOpen] = useState(false);

@@ -3,8 +3,8 @@ import RyanImg from "@/app/assets/Ryan.jpg";
 import NnennaImg from "@/app/assets/Nnenna.jpg";
 import AbdulImg from "@/app/assets/Abdul.jpg";
 
-import VStack from "@/app/components/VStack";
-import TeamMemberCard from "@/app/about_us/meet_the_team/components/TeamMemberCard";
+import VStack from "@/app/(components)/VStack";
+import TeamMemberCard from "@/app/about_us/meet_the_team/(components)/TeamMemberCard";
 
 export default function MeetTheTeamPage() {
     return (

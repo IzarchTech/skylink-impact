@@ -2,7 +2,7 @@ import {ReactNode} from "react";
 import Image from "next/image";
 import {StaticImport} from "next/dist/shared/lib/get-img-props";
 
-import VStack from "@/app/components/VStack";
+import VStack from "@/app/(components)/VStack";
 
 interface Props {
     name: string,

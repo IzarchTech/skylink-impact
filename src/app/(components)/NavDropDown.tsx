@@ -1,6 +1,6 @@
 "use client";
 import {ReactNode, useEffect, useRef, useState} from "react";
-import VStack from "@/app/components/VStack";
+import VStack from "@/app/(components)/VStack";
 
 export default function NavDropDown({children, title}: { title: string, children?: ReactNode }) {
     const [isOpen, setIsOpen] = useState(false);
