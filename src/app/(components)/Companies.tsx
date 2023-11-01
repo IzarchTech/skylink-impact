@@ -15,18 +15,6 @@ import natWestLogo from "@/app/assets/Natwest_logo.svg";
 import santanderLogo from "@/app/assets/santander_logo.svg";
 import unitedNationsLogo from "@/app/assets/united-nations-logo.svg";
 import vitalityLogo from "@/app/assets/vitality-logo.webp";
-import {useEffect, useRef, useState} from "react";
-
-function Companies() {
-    return (
-        <VStack className="py-20 px-4 min-h-[20rem] gap-12 container mx-auto">
-            <h2 className="text-2xl lg:text-4xl font-bold text-center uppercase lg:w-1/2 mx-auto text-slate-950 block">
-                Companies where our candidates have secured roles
-            </h2>
-            <ScrollingImages/>
-        </VStack>
-    );
-}
 
 const IMAGES: { title: string, path: StaticImport | string }[] = [
     {
@@ -75,63 +63,28 @@ const IMAGES: { title: string, path: StaticImport | string }[] = [
     }
 ];
 
-const IMAGE_WIDTH = 300;
-
-function ScrollingImages() {
-    const galleryRef = useRef<HTMLDivElement | null>(null);
-    const [currentIndex, setCurrentIndex] = useState(() => Math.floor(IMAGES.length / 2));
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentIndex((prevIndex) => (prevIndex + 1) % (IMAGES.length + 1))
-        }, 1200);
-
-        return () => clearInterval(interval);
-    }, []);
+function Companies() {
     return (
-        <div className="relative p-4 w-2/3">
-            <div className="flex overflow-x-hidden items-center justify-center" ref={galleryRef}
-                 style={{
-                     width: `${IMAGES.length * IMAGE_WIDTH}px`,
-                     transform: `translateX(-${currentIndex * IMAGE_WIDTH}px)`
-                 }}>
-                <motion.div
-                    key={-1}
-                    className="w-80 p-5"
-                    initial={{opacity: 0, x: IMAGE_WIDTH}}
-                    animate={{opacity: 1, x: 0}}
-                    exit={{opacity: 0, x: -IMAGE_WIDTH}}
-                    transition={{ease: "easeOut", duration: 0.5, delay: 0.2}}
-                >
-                    <Image src={IMAGES[IMAGES.length - 1].path} alt={`${IMAGES[IMAGES.length - 1].title}_logo`}
-                           width={IMAGE_WIDTH} layout="responsive"/>
-                </motion.div>
+        <VStack className="py-20 px-4 min-h-[20rem] gap-12 container mx-auto">
+            <h2 className="text-2xl lg:text-4xl font-bold text-center uppercase lg:w-1/2 mx-auto text-slate-950 block">
+                Companies where our candidates have secured roles
+            </h2>
+            <div className="grid gap-6 grid-cols-2 lg:grid-cols-4 justify-items-center place-items-center">
                 {IMAGES.map(({path, title}, index) => (
                     <motion.div
                         key={`index_${title}_logo`}
-                        className="w-80 p-5"
-                        initial={{opacity: 0, x: -IMAGE_WIDTH}}
-                        animate={{opacity: 1, x: 0}}
-                        exit={{opacity: 0, x: IMAGE_WIDTH}}
-                        transition={{ease: "easeOut", duration: 0.5}}
+                        initial={{opacity: 0, y: -100, scale: 0}}
+                        animate={{opacity: 1, y: 0, scale: 1}}
+                        exit={{opacity: 0, y: 100, scale: 0}}
+                        transition={{ease: "easeOut", duration: 0.25, delay: index / 10}}
                     >
-                        <Image src={path} alt={`${title}_logo`} width={IMAGE_WIDTH} layout="responsive"/>
+                        <Image src={path} alt={`${title}_logo`} className="h-20 object-contain"/>
                     </motion.div>
                 ))}
-                <motion.div
-                    key={IMAGES.length}
-                    className="w-80 p-5"
-                    initial={{opacity: 0, x: -IMAGE_WIDTH}}
-                    animate={{opacity: 1, x: 0}}
-                    exit={{opacity: 0, x: IMAGE_WIDTH}}
-                    transition={{ease: "easeOut", duration: 0.5, delay: 0.3}}
-                >
-                    <Image src={IMAGES[0].path} alt={`${IMAGES[0].title}_logo`} width={IMAGE_WIDTH} layout="responsive"/>
-                </motion.div>
             </div>
-
-        </div>
+        </VStack>
     );
 }
+
 
 export default Companies;
