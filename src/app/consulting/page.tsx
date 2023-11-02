@@ -5,6 +5,7 @@ import VStack from "@/app/(components)/VStack";
 import consultationBg from "@/app/assets/consultation.webp";
 import consultation2Bg from "@/app/assets/consultation2.webp";
 import InfoCard from "@/app/consulting/(components)/InfoCard";
+import ToolsWeWorkWith from "@/app/consulting/(components)/ToolsWeWorkWith";
 
 export const metadata: Metadata = {
     title: "Consulting - Skylink Impact",
@@ -107,6 +108,9 @@ export default function ConsultingPage() {
                         </VStack>
                     </div>
                 </VStack>
+            </VStack>
+            <VStack className="w-full bg-slate-50 items-center justify-center">
+                <ToolsWeWorkWith/>
             </VStack>
         </>
     );

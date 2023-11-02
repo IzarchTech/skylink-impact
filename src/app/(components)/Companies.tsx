@@ -1,7 +1,4 @@
-"use client"
-import Image from "next/image";
 import {StaticImport} from "next/dist/shared/lib/get-img-props";
-import {motion} from "framer-motion";
 
 import VStack from "./VStack";
 import nhsLogo from "@/app/assets/nhs-logo.svg";
@@ -15,6 +12,7 @@ import natWestLogo from "@/app/assets/Natwest_logo.svg";
 import santanderLogo from "@/app/assets/santander_logo.svg";
 import unitedNationsLogo from "@/app/assets/united-nations-logo.svg";
 import vitalityLogo from "@/app/assets/vitality-logo.webp";
+import ImageGallery from "@/app/(components)/ImageGallery";
 
 const IMAGES: { title: string, path: StaticImport | string }[] = [
     {
@@ -70,17 +68,7 @@ function Companies() {
                 Companies where our candidates have secured roles
             </h2>
             <div className="grid gap-6 grid-cols-2 lg:grid-cols-4 justify-items-center place-items-center">
-                {IMAGES.map(({path, title}, index) => (
-                    <motion.div
-                        key={`index_${title}_logo`}
-                        initial={{opacity: 0, y: -100, scale: 0}}
-                        animate={{opacity: 1, y: 0, scale: 1}}
-                        exit={{opacity: 0, y: 100, scale: 0}}
-                        transition={{ease: "easeOut", duration: 0.25, delay: index / 10}}
-                    >
-                        <Image src={path} alt={`${title}_logo`} className="h-20 object-contain"/>
-                    </motion.div>
-                ))}
+                <ImageGallery images={IMAGES}/>
             </div>
         </VStack>
     );
