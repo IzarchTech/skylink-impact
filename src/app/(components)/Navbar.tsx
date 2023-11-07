@@ -42,7 +42,7 @@ export default function Navbar() {
                     </NavDropDown>
 
                     <Link href="/contact_us">Contact Us</Link>
-                    <Link href="/">Mentoring</Link>
+                    <Link href="/mentoring">Mentoring</Link>
                 </div>
                 <button
                     className="lg:hidden text-xl border border-slate-950 p-2 rounded-md active:bg-slate-950 active:text-slate-50"
