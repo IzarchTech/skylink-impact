@@ -36,7 +36,7 @@ export default function ConsultingPage() {
                 </div>
             </div>
 
-            <VStack className="w-full items-center justify-center">
+            <VStack className="w-full items-center justify-center bg-slate-50">
                 <VStack className="container items-center justify-center px-4 py-12">
                     <h2 className="text-4xl font-bold text-center">Our Services</h2>
                     <p className="italic text-center lg:w-3/4">Discover and learn more about our extensive range of
@@ -91,19 +91,19 @@ export default function ConsultingPage() {
                             priority
                         />
                         <VStack className="gap-4 text-justify">
-                            <p className="text-lg">Our distinctive consulting approach is rooted in our ability to
+                            <p>Our distinctive consulting approach is rooted in our ability to
                                 create,
                                 strategize, and execute refined digital business solutions that are not only uniquely
                                 suited
                                 to individual development, but include business elevation,process improvement and
                                 quality
                                 assurance enhancements, for organisations.</p>
-                            <p className="text-lg">We guarantee not only a tangible transformation but a remarkable
+                            <p>We guarantee not only a tangible transformation but a remarkable
                                 journey toward realizing your desired change and growth.</p>
-                            <p className="text-lg"> Our innovative strategies encompass a broad spectrum, ranging from
+                            <p> Our innovative strategies encompass a broad spectrum, ranging from
                                 advanced IT solutions and seamless software integration to comprehensive business
                                 security and development endeavors.</p>
-                            <p className="text-lg">Quality assurance and process improvements are our watchwords. We are
+                            <p>Quality assurance and process improvements are our watchwords. We are
                                 Tech driven, Quality assured.</p>
                         </VStack>
                     </div>

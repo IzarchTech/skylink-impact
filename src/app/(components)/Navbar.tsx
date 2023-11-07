@@ -39,7 +39,6 @@ export default function Navbar() {
                     <NavDropDown title="Events">
                         <Link href="/">Events</Link>
                         <Link href="/">Blogs</Link>
-                        <Link href="/">Job Link</Link>
                     </NavDropDown>
 
                     <Link href="/contact_us">Contact Us</Link>
