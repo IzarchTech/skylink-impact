@@ -12,7 +12,7 @@ interface Props {
 }
 export default function TeamMemberCard({img, name, position, children}: Props){
     return (
-        <VStack className="shadow-lg rounded-lg pb-4 lg:w-3/4">
+        <VStack className="shadow-lg rounded-lg pb-4">
             <VStack className="px-4">
                 <div className="mx-auto h-60 w-60 rounded-full shadow-md bg-slate-950 p-2">
                     <Image src={img} alt={name}

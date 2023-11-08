@@ -2,6 +2,7 @@ import RichieImg from "@/app/assets/Richie.jpg";
 import RyanImg from "@/app/assets/Ryan.jpg";
 import NnennaImg from "@/app/assets/Nnenna.jpg";
 import AbdulImg from "@/app/assets/Abdul.jpg";
+import OgeImg from "@/app/assets/oge.jpg";
 
 import VStack from "@/app/(components)/VStack";
 import TeamMemberCard from "@/app/about_us/meet_the_team/(components)/TeamMemberCard";
@@ -16,7 +17,7 @@ export default function MeetTheTeamPage() {
                 </h2>
             </VStack>
             <VStack className="w-full bg-slate-50 px-4 py-12 items-center justify-center">
-                <div className="grid lg:grid-cols-2 container gap-16 justify-items-center">
+                <div className="grid lg:grid-cols-3 container gap-16 justify-items-center">
                     <TeamMemberCard name="Richie Ugwu"
                                     position="Head of Software Quality Assurance & Release | AGILE Delivery"
                                     img={RichieImg}>
@@ -56,7 +57,8 @@ export default function MeetTheTeamPage() {
                         </p>
 
                         <p>
-                            His career progress in the IT sector has taken him across a couple of seasoned organizations.
+                            His career progress in the IT sector has taken him across a couple of seasoned
+                            organizations.
                             Currently, his path has taken him into the Security and Investigations sector, where he
                             works as a Senior Developer.
                         </p>
@@ -112,6 +114,27 @@ export default function MeetTheTeamPage() {
                             programming skills, they learn the most wanted, valuable and up-to-date industry level
                             skill,
                             which help them achieve a better future.
+                        </p>
+                    </TeamMemberCard>
+                    <TeamMemberCard name="Oge Chukwuemeka" position="Data Analyst | Data Scientist" img={OgeImg}>
+                        <p>
+                            Oge Chukwuemeka is currently a Data Analyst/Scientist in the IT sector and had prior worked
+                            in multiple data and customer centric domains for over 10 years.
+                        </p>
+                        <p>
+                            A graduate of Computer science with Post Graduate education in Data Science and Business
+                            Analytics as well as Data Analytics. Her pre-IT professional experiences equipped her with
+                            domain knowledge and made her a data Enthusiast.
+                        </p>
+                        <p>
+                            She has been opportune to work with a couple of organizations on different data related IT
+                            projects building Information/Data Management systems, Applications, Predictive Models,
+                            Artificial intelligent systems both on in-house projects and as a consultant. She has also
+                            served as a Data Science Instructor in R, Python, MYSQL as well as a mentor.
+                        </p>
+                        <p>
+                            With a mindset of always making progress no matter how little. With same passion she gets
+                            joy empowering anyone who dare to dream regardless of perceived insurmountable challenges.
                         </p>
                     </TeamMemberCard>
                 </div>
