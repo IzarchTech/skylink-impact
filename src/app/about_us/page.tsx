@@ -21,7 +21,7 @@ export default function AboutUsPage() {
             </div>
 
             <VStack className="w-full bg-slate-50 px-4 py-12 items-center justify-center">
-                <VStack className="container text-justify gap-28 text-xl">
+                <VStack className="container text-justify gap-28">
                     <VStack className="lg:w-[70ch] gap-4 mx-auto">
                         <p>SkyLink
                             Impact is an IT Business Consultancy and Mentoring company that acts as a guiding light
@@ -64,7 +64,7 @@ export default function AboutUsPage() {
                             </VStack>
                         </VStack>
 
-                        <VStack className="gap-4 text-xl text-justify shadow-md lg:p-8 p-4 rounded-lg ring-slate-700">
+                        <VStack className="gap-4 text-justify shadow-md lg:p-8 p-4 rounded-lg ring-slate-700">
                             <p>As a Business Consultancy, we are dedicated to enhancing the efficiency and effectiveness
                                 of your business operations. With a deep understanding of various industries and a
                                 commitment to delivering tailored solutions, our team of experts will work closely with
