@@ -4,6 +4,14 @@ import VStack from "@/app/(components)/VStack";
 
 import consultationBg from "@/app/assets/consultation.webp";
 import consultation2Bg from "@/app/assets/consultation2.webp";
+import QABg from "@/app/assets/QA.jpg";
+import businessAnalysisImg from "@/app/assets/business_analysis.jpg";
+import devOpsImg from "@/app/assets/devops.png";
+import productMgtImg from "@/app/assets/product_management.png";
+import mentoringImg2 from "@/app/assets/mentoring2.jpg";
+import agileCoachingImg from "@/app/assets/agile_coach.jpg";
+import aiImg from "@/app/assets/ai.jpg";
+import bizConsultImg from "@/app/assets/biz_consult.jpg";
 import InfoCard from "@/app/consulting/(components)/InfoCard";
 import ToolsWeWorkWith from "@/app/consulting/(components)/ToolsWeWorkWith";
 
@@ -46,33 +54,33 @@ export default function ConsultingPage() {
                         <h2 className="text-3xl font-semibold">We Offer:</h2>
                         <div
                             className="grid lg:grid-cols-2 lg:grid-rows-4 gap-10 mt-8 text-justify justify-items-center">
-                            <InfoCard title="Business Consulting" description="Elevate your organisation with our expert business consultants. We&apos;ll
+                            <InfoCard image={bizConsultImg} title="Business Consulting" description="Elevate your organisation with our expert business consultants. We&apos;ll
                                     collaborate with you to devise innovative business strategies, drive organisational growth, and boost business performance."/>
 
-                            <InfoCard title="Software Testing"
+                            <InfoCard image={QABg} title="Software Testing"
                                       description="Ensure impeccable software quality for your organisation. Partner with our QA experts to exceed industry standards and enhance your digital offerings."/>
 
-                            <InfoCard title="Mentoring"
+                            <InfoCard image={mentoringImg2} title="Mentoring"
                                       description="Empower your team with our mentoring program. We provide tailored guidance and knowledge to help your organisation&apos;s members foster IT skill development, and excel in the IT industry."/>
 
-                            <InfoCard title="Agile Coaching" description="With our Agile Coaching solutions, we will empower your teams to adapt, innovate and
+                            <InfoCard image={agileCoachingImg} title="Agile Coaching" description="With our Agile Coaching solutions, we will empower your teams to adapt, innovate and
                                 thrive
                                 in a dynamic business environment to help your organisation stay ahead in your
                                 industry."/>
 
-                            <InfoCard title="Artificial Intelligence" description="By leveraging AI&apos;s transformative potential, we create intelligent AI-powered
+                            <InfoCard image={aiImg} title="Artificial Intelligence" description="By leveraging AI&apos;s transformative potential, we create intelligent AI-powered
                                 solutions and systems for your organisation, to drive efficiency and innovation."/>
 
-                            <InfoCard title="Business Analysis" description="Gain valuable insights into your organisation&apos;s challenges with our expert
+                            <InfoCard image={businessAnalysisImg} title="Business Analysis" description="Gain valuable insights into your organisation&apos;s challenges with our expert
                                 analysis. We
                                 provide data-driven recommendations to optimize your decision-making processes, to
                                 enhance
                                 your business analysis services."/>
 
-                            <InfoCard title="DevOps"
+                            <InfoCard image={devOpsImg} title="DevOps"
                                       description="Using our DevOps practices, we will help streamline your organisation's development and operstions. We foster collaboration and process automation to ensure faster and relaible DevOps solutions and outcomes. "/>
 
-                            <InfoCard title="Product Management"
+                            <InfoCard image={productMgtImg} title="Product Management"
                                       description="We will transform your organisation&apos;s ideas into successful products. Our expert product managers guide every step of the process, from ideation to market, ensuring successful offerings and providing product management services."/>
                         </div>
                     </VStack>
@@ -91,12 +99,9 @@ export default function ConsultingPage() {
                             priority
                         />
                         <VStack className="gap-4 text-justify">
-                            <p>Our distinctive consulting approach is rooted in our ability to
-                                create,
-                                strategize, and execute refined digital business solutions that are not only uniquely
-                                suited
-                                to individual development, but include business elevation,process improvement and
-                                quality
+                            <p>Our distinctive consulting approach is rooted in our ability to create, strategize, and
+                                execute refined digital business solutions that are not only uniquely suited to
+                                individual development, but include business elevation, process improvement and quality
                                 assurance enhancements, for organisations.</p>
                             <p>We guarantee not only a tangible transformation but a remarkable
                                 journey toward realizing your desired change and growth.</p>
