@@ -3,8 +3,11 @@
 import {motion} from "framer-motion";
 import Image from "next/image";
 import {StaticImport} from "next/dist/shared/lib/get-img-props";
+import { title } from "process";
 
 export default function ImageGallery({images}: { images: { path: StaticImport | string, title: string }[] }) {
+    const imgH = (title: string) => title == "Jira" || title == "Microsoft Azure" ? "h-48" : "h-20";
+
     return (
         images.map(({path, title}, index) => (
             <motion.div
@@ -14,7 +17,7 @@ export default function ImageGallery({images}: { images: { path: StaticImport | 
                 exit={{opacity: 0, y: 100, scale: 0}}
                 transition={{ease: "easeOut", duration: 0.25, delay: index / 10}}
             >
-                <Image src={path} alt={`${title}_logo`} className="h-20 object-contain"/>
+                <Image src={path} alt={`${title}_logo`} className={`${imgH(title)} object-contain`}/>
             </motion.div>
         ))
     );
