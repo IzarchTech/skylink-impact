@@ -71,7 +71,7 @@ export default function AboutUsPage() {
                                 you to identify challenges, manage processes, and optimize your work culture.</p>
                             <p>We aim to improve the overall quality assurance of your business, ensuring that you
                                 achieve your objectives and maintain a competitive edge in the market. Your success is
-                                our priority, and we&apos;re here to provide you with the strategic insights and and
+                                our priority, and we&apos;re here to provide you with the strategic insights and
                                 IT-driven solutions you need to thrive.</p>
                             <p>As a Mentoring Company we are dedicated to fostering the growth and development of
                                 individuals within the IT industry. As such, we provide knowledge advancement trainings,
