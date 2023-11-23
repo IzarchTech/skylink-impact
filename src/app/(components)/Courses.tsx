@@ -2,7 +2,7 @@ import QABg from "@/app/assets/QA.jpg";
 import businessAnalysisImg from "@/app/assets/business_analysis.jpg";
 import appDev from "@/app/assets/app_development-1.webp";
 import devOpsImg from "@/app/assets/devops.png";
-import productMgtImg from "@/app/assets/product_management.png";
+import productDevImg from "@/app/assets/product_development.webp";
 
 import CourseCard from "./CourseCard";
 
@@ -24,7 +24,7 @@ export default function Courses() {
                     path="/courses#business_analysis"
                 />
                 <CourseCard src={appDev} title="Software Developement" path="/courses#software_development"/>
-                <CourseCard src={productMgtImg} title="Product Management" path="/courses#product_management"/>
+                <CourseCard src={productDevImg} title="Product Development" path="/courses#product_management"/>
                 <CourseCard src={devOpsImg} title="DevOps" path="/courses#devops"/>
             </div>
         </div>
