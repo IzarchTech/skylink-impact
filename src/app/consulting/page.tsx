@@ -7,7 +7,7 @@ import consultation2Bg from "@/app/assets/consultation2.webp";
 import QABg from "@/app/assets/QA.jpg";
 import businessAnalysisImg from "@/app/assets/business_analysis.jpg";
 import devOpsImg from "@/app/assets/devops.png";
-import productMgtImg from "@/app/assets/product_management.png";
+import productDevImg from "@/app/assets/product_development.webp";
 import mentoringImg2 from "@/app/assets/mentoring2.jpg";
 import agileCoachingImg from "@/app/assets/agile_coach.jpg";
 import aiImg from "@/app/assets/ai.jpg";
@@ -80,7 +80,7 @@ export default function ConsultingPage() {
                             <InfoCard image={devOpsImg} title="DevOps"
                                       description="Using our DevOps practices, we will help streamline your organisation's development and operstions. We foster collaboration and process automation to ensure faster and relaible DevOps solutions and outcomes. "/>
 
-                            <InfoCard image={productMgtImg} title="Product Management"
+                            <InfoCard image={productDevImg} title="Product Management"
                                       description="We will transform your organisation&apos;s ideas into successful products. Our expert product managers guide every step of the process, from ideation to market, ensuring successful offerings and providing product management services."/>
                         </div>
                     </VStack>
