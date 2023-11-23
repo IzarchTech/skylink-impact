@@ -39,7 +39,7 @@ export default function Footer() {
           <p className="uppercase font-semibold">Our Services</p>
 
           <VStack className="space-y-2 text-xs" isFull>
-            <Link href="/">Business Consultancy</Link>
+            <Link href="/consulting">Business Consultancy</Link>
             <Link href="/">Organisation Development</Link>
             <Link href="/mentoring">Mentoring</Link>
             <Link href="/">Team Training</Link>
