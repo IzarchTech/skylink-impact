@@ -19,6 +19,56 @@ export default function MeetTheTeamPage() {
       <VStack className="w-full bg-slate-50 px-4 py-12 items-center justify-center">
         <div className="grid lg:grid-cols-3 container gap-16 justify-items-center">
           <TeamMemberCard
+            name="Sarah Reed"
+            position="Project Management | Lean AGILE Expert"
+            img={SarahImg}
+          >
+            <p>
+              With a passion for driving organizational agility and a proven
+              track record of successful delivery, Sarah is an experienced
+              Certified professional scrum master, product owner, project
+              manager and agile coach.
+            </p>
+
+            <p>
+              Sarah has worked with 65+ software development teams and led 20+
+              scaled agile planning events (teams of teams with 100+ attendees)
+              across multiple geographies, timezones and cultures. She has led
+              6+ companies through successful large-scale agile transformations
+              and mentored 80+ aspiring agile professionals on their career
+              development journey.
+            </p>
+
+            <p>
+              Sarah&apos;s major disciplines are Advanced Professional Scrum
+              Product Owner, Advanced Professional Scrum Master and SAFe Program
+              Consultant. She actively uses Project Management, Kanban, Nexus,
+              S@S, XP, DevOps, Lean Six Sigma and ITIL techniques for
+              results-orientated holistic delivery.
+            </p>
+
+            <p>
+              Sarah&apos;s coaching style is marked by a blend of empathy,
+              strategic thinking, and a deep understanding of lean agile
+              principles and practices. With a servant leadership mindset and
+              credible communication style, she is a catalyst for positive
+              change for those who engage with her.
+            </p>
+
+            <p>
+              Her ability to seamlessly transition between strategic leadership
+              and hands-on coaching has made her an asset to any team aiming for
+              sustained high performance and excellence in project delivery.
+            </p>
+
+            <p>
+              As an advocate for continuous improvement, Sarah is committed to
+              bringing out the best in individuals, teams, and organizations
+              through the power of lean agile principles and practices.
+            </p>
+          </TeamMemberCard>
+
+          <TeamMemberCard
             name="Richie Ugwu"
             position="Head of Software Quality Assurance & Release | AGILE Delivery"
             img={RichieImg}
@@ -55,64 +105,6 @@ export default function MeetTheTeamPage() {
             <p>
               Richie in a nutshell; “Result Oriented, Powered by intellect,
               driven by value”.
-            </p>
-          </TeamMemberCard>
-          <TeamMemberCard
-            name="Sarah Reed"
-            position="Project Management | Lean AGILE Expert"
-            img={SarahImg}
-          >
-            <p>
-              With a passion for driving organizational agility and a proven
-              track record of successful delivery, Sarah is an experienced
-              Certified professional scrum master, product owner, project
-              manager and agile coach.
-            </p>
-
-            <p>
-              Sarah has worked with 65+ software development teams and led 15+
-              scaled agile planning events (teams of teams with 100+ attendees)
-              across multiple geographies, timezones and cultures.
-            </p>
-
-            <p>
-              She has led 6+ companies through successful large-scale agile
-              transformations and mentored 40+ aspiring agile professionals on
-              their career development journey.
-            </p>
-
-            <p>
-              Sarah&apos;s major disciplines are Advanced Professional Scrum
-              Product Owner, Advanced Professional Scrum Master and SAFe Program
-              Consultant. She actively uses Project Management, Kanban, Nexus,
-              S@S, XP, DevOps, Lean Six Sigma and ITIL techniques for
-              results-orientated holistic delivery.
-            </p>
-
-            <p>
-              The wealth of Sarah&apos;s experience is in complex environments
-              (FinTech such as Pensions, Asset Management, Insurance, Private
-              Equity), building software and data solutions in Azure and AWS.
-              She holds a Bachelor&apos;s Degree with Triple major in Economics,
-              Investment Management and Strategy and also an Honours Degree in
-              Financial Economics.
-            </p>
-            <p>
-              Sarah&apos;s coaching style is marked by a blend of empathy,
-              strategic thinking, and a deep understanding of lean agile
-              principles and practices. With a servant leadership mindset and
-              credible communication style, she is a catalyst for positive
-              change for those who engage with her.
-            </p>
-            <p>
-              Her ability to seamlessly transition between strategic leadership
-              and hands-on coaching has made her an asset to any team aiming for
-              sustained high performance and excellence in project delivery.
-            </p>
-            <p>
-              As an advocate for continuous improvement, Sarah is committed to
-              bringing out the best in individuals, teams, and organizations
-              through the power of lean agile principles and practices.
             </p>
           </TeamMemberCard>
 

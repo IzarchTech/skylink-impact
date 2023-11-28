@@ -32,6 +32,7 @@ export default function Footer() {
             </Link>
             <Link href="/courses#product_development">Product Development</Link>
             <Link href="/courses#devops">DevOps</Link>
+            <Link href="/courses#scrum_master">Agile Coach / Scrum Master</Link>
           </VStack>
         </VStack>
 

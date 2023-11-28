@@ -1,7 +1,10 @@
 import { Metadata } from "next";
 import Image from "next/image";
 import { FaCheckCircle } from "react-icons/fa";
+import { FaMobileScreenButton } from "react-icons/fa6";
 
+import VStack from "@/app/(components)/VStack";
+import HStack from "@/app/(components)/HStack";
 import coursesBg from "@/app/assets/courses_bg.webp";
 import businessAnalysisImg from "@/app/assets/business_analysis.jpg";
 import appDev from "@/app/assets/app_development-1.webp";
@@ -9,9 +12,7 @@ import appDev2 from "@/app/assets/app_development-2.jpg";
 import QABg from "@/app/assets/QA.jpg";
 import productDevImg from "@/app/assets/product_development.webp";
 import devOpsImg from "@/app/assets/devops.png";
-import VStack from "@/app/(components)/VStack";
-import HStack from "@/app/(components)/HStack";
-import { FaMobileScreenButton } from "react-icons/fa6";
+import scrumImg from "@/app/assets/scrum.webp";
 
 export const metadata: Metadata = {
   title: "Courses - Skylink Impact",
@@ -262,6 +263,41 @@ export default function CoursesPage() {
                   <p>Azure Cloud</p>
                 </HStack>
               </VStack>
+            </VStack>
+          </div>
+        </div>
+
+        <div
+          className="w-full bg-slate-700 text-slate-50 p-4 py-8 flex flex-col justify-center items-center gap-4"
+          id="scrum_master"
+        >
+          <h3 className="text-center text-2xl font-bold">
+            Agile Coach / Scrum Master
+          </h3>
+          <div className="grid lg:grid-cols-2 container gap-4 place-items-center place-content-center">
+            <Image
+              src={scrumImg}
+              className="object-cover object-center w-full order-2"
+              alt="courses"
+              priority
+            />
+            <VStack className="text-lg gap-8">
+              <p>
+                Successful software development goes hand-in-hand with concepts
+                such as Lean Six Sigma, waste reduction, value stream mapping
+                and process optimization. Agile teams use delivery frameworks
+                such as SAFe, Nexus, Extreme Programming, Feature Driven
+                Delivery, Dynamic Systems Development Method, Crystal, Scrum and
+                Kanban.
+              </p>
+              <p>
+                This course equips professionals and businesses with the
+                principles, practices and terminology required to compete in the
+                software development industry. The Advanced course (with
+                optional certification with an internationally recognised
+                institution) unlocks the potential to become a Professional
+                Scrum Master or Professional Agile Coach.
+              </p>
             </VStack>
           </div>
         </div>
