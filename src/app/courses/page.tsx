@@ -24,7 +24,7 @@ export default function CoursesPage() {
       <div className="w-full relative">
         <Image
           src={coursesBg}
-          className="object-cover object-center lg:object-bottom h-[60vh] lg:h-[80vh] w-full"
+          className="object-cover h-[60vh] lg:h-[80vh] w-full"
           alt="courses"
           priority
         />
