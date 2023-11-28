@@ -74,9 +74,11 @@ export default function MeetTheTeamPage() {
             img={RichieImg}
           >
             <p>
-              Richie Ugwu is a Software Quality Assurance & Release Manager with
-              over 10 years of experience working across both public and private
-              sectors.
+              With a dynamic career spanning over a decade, Richie is a seasoned
+              professional in the realm of software quality assurance, release
+              management, agile delivery, leadership, and change management. His
+              multifaceted expertise has made him an invaluable asset in the
+              ever-evolving landscape of technology.
             </p>
 
             <p>
