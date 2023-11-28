@@ -76,12 +76,12 @@ export default function Footer() {
             <p className="text-sm">
               Subscribe to get our updates &amp; deals delivered to you
             </p>
-            <form className="bg-slate-50 flex w-full">
+            <form className="bg-slate-50 flex flex-col lg:flex-row w-full">
               <input
                 className="p-2 rounded-md text-slate-900 bg-transparent outline-none flex-1"
                 placeholder="Email Address"
               />
-              <button className="bg-slate-700 hover:bg-slate-800 px-2 text-slate-50">
+              <button className="bg-slate-700 hover:bg-slate-800 p-2 text-slate-50">
                 Subscribe
               </button>
             </form>
