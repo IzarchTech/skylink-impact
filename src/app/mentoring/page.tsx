@@ -51,8 +51,10 @@ export default function MentoringPage() {
               experience, and continuous guidance to IT professionals and those
               looking to break into the industry.
             </p>
-            <h3 className="font-bold underline text-lg">AIM</h3>
-            <VStack>
+            <h3 className="font-bold underline text-lg">
+              Technical Mentoring Program
+            </h3>
+            <VStack className="gap-4">
               <p>
                 Our aim revolves around equipping IT professionals with the
                 skills and knowledge they need to excel in a rapidly changing
@@ -68,7 +70,7 @@ export default function MentoringPage() {
             </VStack>
 
             <h3 className="font-bold underline text-lg uppercase">
-              Our Focus Areas
+              Focus Areas
             </h3>
 
             <p className="-mt-7">
