@@ -10,10 +10,10 @@ type Props = {
 
 export default function Achivement({ noOfTimes, title, delay }: Props) {
   return (
-    <div className="flex justify-center items-center p-4">
-      <VStack className="gap-2 h-40 lg:h-60 lg:w-60 justify-center items-center">
-        <h3 className="font-bold text-5xl text-center">
-          <CountUp duration={2.5} delay={delay} end={noOfTimes} />+
+    <div className="flex items-center justify-center p-4">
+      <VStack className="items-center justify-center h-40 gap-2 lg:h-60 lg:w-60">
+        <h3 className="text-5xl font-bold text-center">
+          <CountUp duration={2.5} delay={delay} end={noOfTimes} useEasing />+
         </h3>
         <p className="text-center">{title}</p>
       </VStack>
