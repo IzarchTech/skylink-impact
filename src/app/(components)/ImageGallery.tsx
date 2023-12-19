@@ -3,7 +3,6 @@
 import {motion} from "framer-motion";
 import Image from "next/image";
 import {StaticImport} from "next/dist/shared/lib/get-img-props";
-import { title } from "process";
 
 export default function ImageGallery({images}: { images: { path: StaticImport | string, title: string }[] }) {
     const imgH = (title: string) => title == "Jira" || title == "Microsoft Azure" ? "h-48" : "h-20";
